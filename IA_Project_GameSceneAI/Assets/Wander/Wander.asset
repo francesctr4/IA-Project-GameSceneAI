@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a7c8ca992f915438a96c2077353778, type: 3}
   m_Name: Wander
   m_EditorClassIdentifier: 
-  brickName: Assets/Wander.asset
+  brickName: Assets/Wander/Wander.asset
   xml: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<BehaviorBricks xmlns:ref=\"urn:padaone\"
     version=\"1.0\">\r\n  <BehaviorTree id=\"0\" />\r\n  <runtimeInfo>\r\n    <BehaviorTree
     id=\"0\" guid=\"6cf83fb7ff7bb1848b007e69863ad16a\" nextId=\"3\">\r\n      <root>\r\n       
