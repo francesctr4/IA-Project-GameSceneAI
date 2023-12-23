@@ -10,35 +10,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34a7c8ca992f915438a96c2077353778, type: 3}
-  m_Name: Wander
+  m_Name: PoliceCarBehaviourBrick
   m_EditorClassIdentifier: 
-  brickName: Assets/Wander/Wander.asset
+  brickName: Assets/Cars/PoliceCarBehaviourBrick.asset
   xml: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<BehaviorBricks xmlns:ref=\"urn:padaone\"
     version=\"1.0\">\r\n  <BehaviorTree id=\"0\" />\r\n  <runtimeInfo>\r\n    <BehaviorTree
-    id=\"0\" guid=\"6cf83fb7ff7bb1848b007e69863ad16a\" nextId=\"3\">\r\n      <root>\r\n       
-    <RepeatDecorator id=\"1\" />\r\n      </root>\r\n      <inputParams />\r\n     
+    id=\"0\" guid=\"c8863c011caf4594db75945809e9824b\" nextId=\"3\">\r\n      <root>\r\n       
+    <RepeatDecorator id=\"1\" />\r\n      </root>\r\n      <inputParams>\r\n       
+    <inputValues>\r\n          <entry name=\"target\" type=\"UnityEngine.GameObject\"
+    isBlackboard=\"False\" />\r\n        </inputValues>\r\n      </inputParams>\r\n     
     <outputParams />\r\n      <localParams />\r\n    </BehaviorTree>\r\n    <RepeatDecorator
     id=\"1\" loops=\"-1\" policy=\"ContinueWhenChildFails\">\r\n      <child>\r\n       
     <ActionNode id=\"2\" />\r\n      </child>\r\n      <inputParams />\r\n      <outputParams
     />\r\n      <localParams />\r\n    </RepeatDecorator>\r\n    <ActionNode id=\"2\"
-    action=\"Navigation/MoveToRandomPosition\">\r\n      <inputParams />\r\n     
+    action=\"Navigation/MoveToGameObject\">\r\n      <inputParams>\r\n        <inputValues>\r\n         
+    <entry name=\"target\" type=\"UnityEngine.GameObject\" isBlackboard=\"True\"
+    blackboard=\"target\" />\r\n        </inputValues>\r\n      </inputParams>\r\n     
     <outputParams />\r\n      <localParams />\r\n    </ActionNode>\r\n  </runtimeInfo>\r\n 
-    <editorInfo>\r\n    <BehaviorTree id=\"0\" _name=\"Wander\" _description=\"\"
+    <editorInfo>\r\n    <BehaviorTree id=\"0\" _name=\"PoliceCar\" _description=\"\"
     _removeIfClosed=\"False\">\r\n      <_rootList>\r\n        <elem>\r\n         
     <RepeatDecorator id=\"1\" />\r\n        </elem>\r\n        <elem>\r\n         
     <ActionNode id=\"2\" />\r\n        </elem>\r\n      </_rootList>\r\n      <_nodes>\r\n       
     <nodes>\r\n          <RepeatDecorator id=\"1\" />\r\n          <ActionNode id=\"2\"
     />\r\n        </nodes>\r\n      </_nodes>\r\n    </BehaviorTree>\r\n    <RepeatDecorator
     id=\"1\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"343 152\" name=\"Repeat\" description=\"Repeats the execution of its
+    position=\"240 200\" name=\"Repeat\" description=\"Repeats the execution of its
     child node\" cardinality=\"1\" hasParent=\"False\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <RepeatDecorator id=\"1\" />\r\n        </data>\r\n     
     </_data>\r\n    </RepeatDecorator>\r\n    <ActionNode id=\"2\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"275 342\" name=\"Navigation/MoveToRandomPosition\"
-    description=\"Gets a random position from a given area and moves the game object
-    to that point by using a NavMeshAgent\" cardinality=\"0\" hasParent=\"True\">\r\n         
-    <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"2\" />\r\n          <RepeatDecorator
-    id=\"1\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
+    <data breakpoint=\"0\" selected=\"False\" position=\"190 372\" name=\"Navigation/MoveToGameObject\"
+    description=\"Moves the game object towards a given target by using a NavMeshAgent\"
+    cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
+    <ActionNode id=\"2\" />\r\n          <RepeatDecorator id=\"1\" />\r\n       
+    </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
   zoom: 1
   subslist: []
-  _guid: 6cf83fb7ff7bb1848b007e69863ad16a
+  _guid: c8863c011caf4594db75945809e9824b
