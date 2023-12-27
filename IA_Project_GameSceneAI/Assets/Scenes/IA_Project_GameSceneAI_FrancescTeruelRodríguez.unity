@@ -2184,6 +2184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoliceCarFixPivot
       objectReference: {fileID: 0}
+    - target: {fileID: 1520344656227732469, guid: 49002f44e4fa01a4c8152f0677a2cebc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7931304422767511794, guid: 49002f44e4fa01a4c8152f0677a2cebc, type: 3}
       propertyPath: m_RootOrder
       value: 1
