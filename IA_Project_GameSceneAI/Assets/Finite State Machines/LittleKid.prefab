@@ -67,7 +67,7 @@ Transform:
   - {fileID: 5697200423842411747}
   - {fileID: 3453274749936119631}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &7772387087018950234
 Animator:
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8023d29c35fc340468a8f9a0bc26abbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wanderRadius: 6
+  wanderRadius: 4
   idleTime: 2
   idleAnimations:
   - {fileID: 7400000, guid: 791bde781c8a9354bad2a88379872a76, type: 2}
