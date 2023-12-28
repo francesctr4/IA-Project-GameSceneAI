@@ -1,5 +1,8 @@
 # Artificial Intelligence - Game Scene Project
 
+![FR1](https://github.com/francesctr4/IA-Project-GameSceneAI/assets/99948892/ada496fa-bdcc-4ab3-b910-2829ab6faa7b)
+![FR2](https://github.com/francesctr4/IA-Project-GameSceneAI/assets/99948892/f91e7fe0-47e0-4c75-926b-03e9cb4aae28)
+
 ## Proposed Activity:
 
 ### Develop a free scene with lots of agents with the next constraints:
@@ -20,11 +23,6 @@
 * Behaviour Trees
 * Formation Motion
 * Machine Learning
-
-## Final Results:
-
-![FR1](https://github.com/francesctr4/IA-Project-GameSceneAI/assets/99948892/ada496fa-bdcc-4ab3-b910-2829ab6faa7b)
-![FR2](https://github.com/francesctr4/IA-Project-GameSceneAI/assets/99948892/f91e7fe0-47e0-4c75-926b-03e9cb4aae28)
 
 ## Unity AI Packages used in this project:
 
